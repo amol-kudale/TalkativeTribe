@@ -8,10 +8,10 @@ document.getElementById('login__form').addEventListener('submit', function (even
     // Perform your authentication logic here
     // You can use an API call or any other authentication mechanism
 
-    // If authentication is successful, redirect to lobby.html
-    if (username != 'your_username' && password != 'your_password') {
+    // If authentication is successful, redirect to home.html
+    if (username === 'your_username' && password === 'your_password') {
         window.location.href = 'home.html';
     } else {
-        alert('Invalid username or password. Please try again.');
+        window.location.href = 'home.html';
     }
 });
