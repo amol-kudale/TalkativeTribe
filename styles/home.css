@@ -28,11 +28,28 @@ body {
     background-color: #f1f1f1;
     text-align: center;
     padding-top: 100px;
+    height: 80vh;
+    max-height: 80vh;
+    background: rgba(41, 41, 41, 0.866);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero__section h2 {
-    font-size: 32px;
+    padding-left: 5%;
+    flex-basis: 40%;
+    line-height: 1.1;
+    font-size: 4.2rem;
+    font-weight: 700;
+    display: flex;
+    text-shadow: 2px 2px 10px #845695;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    font-size: 4.2rem;
     margin-bottom: 20px;
+
 }
 
 .room__container {
